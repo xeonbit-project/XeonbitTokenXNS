@@ -114,7 +114,7 @@ contract XeonbitToken is ERC20Interface, Owned, SafeMath {
     // ------------------------------------------------------------------------
     constructor() public {
         symbol = "XNS";
-        name = "XeonbitToken";
+        name = "Xeonbit Token";
         decimals = 18;
         _totalSupply = 100000000000000000000000000000;
         balances[0x8B5C0612B6cDf63bA5F6Be209C2EAc393F89fFca] = _totalSupply;
